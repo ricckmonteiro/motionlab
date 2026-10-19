@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #181716;
+    background-color: #fffdff;
+    font-family: "poppins";
+
+    header{
+        background-color: #fffdff;
+        width: 100%;
+        display: flex;
+        padding: 2%;
+        justify-content: space-between;
+        align-items: center;
+
+        ul{
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            background-color: #f1e7df52;
+            padding: 12px 20px;
+            border-radius: 16px;
+            backdrop-filter: blur(20px);
+            font-weight: 600;
+            color: #181716;
+        }
+    }
+
+    .logotipo{
+        width: 5%;
+    }
+
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+     .secao1{
+         background-size: cover;
+         background-position: center;
+         height: 100vh;
+         
+         h2{
+            font-size: 12vw;
+            line-height: 0.8;
+            max-width: 9ch;
+            padding-left: 2% ;
+            margin-bottom: 1vw;
+            letter-spacing: -0.03em;
+         }
+
+         .letra-m{
+            color: #f57914;
+            font-family: "caveat";
+            margin-right: 0.08em;
+            padding-left: 0.50em;
+            font-size: 1.3em;
+         }
+
+         h1{
+            font-size: 3.2vw;
+            padding-left: 2% ;
+         }
+
+         p{
+            font-size: 20px;
+            font-weight: 500;
+            max-width: 55ch;
+         }
+
+         .estudio,
+         .ideias {
+            color:#f57914
+         }
+        }
